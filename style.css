@@ -1,4 +1,4 @@
-/* .carousel-items {
+/* /* .carousel-items {
     height: 100vh;
     min-height: 300px;
     background: no-repeat scroll center scroll;
@@ -28,11 +28,20 @@
     justify-content: center;
     flex-direction: column;
 } */
-.bg-success {
+/* .bg-success {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .col-md {
     display: none;
+} */
+
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .view {
+        display: d-none;
+    }
+
 }
