@@ -14,9 +14,15 @@
 <body>
     <header class="container-fluid">
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg  m-5">
+        <nav class="navbar navbar-expand-lg bg-light m-5">
             <div class="container-fluid">
                 <a class="navbar-brand fs-1" href="#">E-Tech24</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
@@ -37,7 +43,8 @@
 
 
                 </div>
-                <div class="btn btn-primary"> Register</div>
+                <div class="btn btn-primary "> Register</div>
+
             </div>
         </nav>
 
@@ -50,7 +57,7 @@
                         <img class="img-fluid  opacity-50 border rounded" src="images/cover/cover-1.png"
                             class=" bg-dark d-block w-100   alt=" ...">
                         <div class="align-items-center">
-                            <div class="carousel-caption d-none d-md-block pt-5 mt-5">
+                            <div class="carousel-caption d-md-block pt-5 mt-5">
                                 <h1 class="text-dark">For every student,
                                     every classroom.
                                     Real results</h1>
@@ -68,7 +75,7 @@
                     <div class="carousel-item ">
                         <img class="img-fluid  opacity-25 border rounded" src="images/cover/cover-2.jpg"
                             class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block  ">
+                        <div class="carousel-caption  d-md-block  ">
                             <h1 class="text-dark">Differentiate your classroom and engage every student.</h1>
                             <p class="text-dark">We empower teachers to support their entire classroom. 90% of US
                                 teachers who have used Khan Academy have found us effective.</p>
@@ -76,15 +83,31 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid opacity-50 border rounded" src="images/cover/cover-3.jpg"
-                            class=" d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block align-items-center">
+                        <div class="row">
+                            <div class="row-col-lg-8">
+                                <img class="img-fluid opacity-50 border rounded" src="images/cover/cover-3.jpg"
+                                    class=" d-block w-100" alt="...">
+                            </div>
+                            <div class="row-col-lg-4">
+                                <div class="carousel-caption d-md-block align-items-center">
+                                    <h1 class="text-dark">Products that power education</h1>
+                                    <p class="text-dark">Google for Education tools work together to transform teaching
+                                        and
+                                        learning so every
+                                        student and educator can pursue their personal potential</p>
+                                    <div class="btn btn-primary my-2"> Get Started</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img class="img-fluid opacity-50 border rounded" src="images/cover/cover-3.jpg"
+                            class=" d-block w-100" alt="..."> -->
+                        <!-- <div class="carousel-caption d-none d-md-block align-items-center">
                             <h1 class="text-dark">Products that power education</h1>
                             <p class="text-dark">Google for Education tools work together to transform teaching and
                                 learning so every
                                 student and educator can pursue their personal potential</p>
                             <div class="btn btn-primary my-2"> Get Started</div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -114,14 +137,14 @@
         <!-- course section start -->
         <div class="container">
             <div class="container text-center text-start">
-                <div class="row g-3">
-                    <div class="col-6">
+                <div class=" col-lg-6 col-md-12 row g-3">
+
+                    <!-- <div class="col-md-12 col-lg-6">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
+                                <div class="col-md-12 col-lg-6  ">
+                                    <div><img src="images/course/course-1.png" class="img-fluid w-100 rounded-start"
+                                            alt="..."></div>
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Fundamental Of UI/UX Design</h5>
                                         <p>User interface (UI) design is about making the product
@@ -132,108 +155,132 @@
 
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Javascript Basic to advanced</h5>
-                                        <p class="card-text">Perfect JavaScript course for all those who want to
-                                            learn and master JavaScript programming skills right from scratch.
-                                        </p>
-                                        <h6 class="text-primary">Price:24$</h6>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Fullstack Web Development</h5>
-                                        <p class="card-text">A full stack web developer is a person who can develop both
-                                            client and server software. In addition to mastering HTML and CSS
-                                        </p>
-                                        <h6 class="text-primary">Price:28$</h6>
 
-                                    </div>
-                                </div>
 
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Digital Marketing</h5>
-                                        <p class="card-text">Digital marketing is the act of selling products and
-                                            services through channels such as social media, SEO, email, and mobile apps.
-                                        </p>
-                                        <h6 class="text-primary">Price:23$</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Photography Basic Rules</h5>
-                                        <p class="card-text">There should be space in front of the subject, in the
-                                            direction in which the subject is moving,
-                                        </p>
-                                        <h6 class="text-primary">Price:30$</h6>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Motion Graphics</h5>
-                                        <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation
-                                            or digital footage which create the illusion of motion or rotation
-                                        </p>
-                                        <h6 class="text-primary">Price:29$</h6>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                    </div> -->
                 </div>
+                <div class=" col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p>User interface (UI) design is about making the product
+                                        look good. It's about
+                                        adding colors, borders, icons, shadows
+                                    </p>
+                                    <h6 class="text-primary">Price:20$</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Javascript Basic to advanced</h5>
+                                    <p class="card-text">Perfect JavaScript course for all those who want to
+                                        learn and master JavaScript programming skills right from scratch.
+                                    </p>
+                                    <h6 class="text-primary">Price:24$</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Fullstack Web Development</h5>
+                                    <p class="card-text">A full stack web developer is a person who can develop both
+                                        client and server software. In addition to mastering HTML and CSS
+                                    </p>
+                                    <h6 class="text-primary">Price:28$</h6>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text">Digital marketing is the act of selling products and
+                                        services through channels such as social media, SEO, email, and mobile apps.
+                                    </p>
+                                    <h6 class="text-primary">Price:23$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Photography Basic Rules</h5>
+                                    <p class="card-text">There should be space in front of the subject, in the
+                                        direction in which the subject is moving,
+                                    </p>
+                                    <h6 class="text-primary">Price:30$</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-start">
+                                    <h5 class="card-title">Motion Graphics</h5>
+                                    <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation
+                                        or digital footage which create the illusion of motion or rotation
+                                    </p>
+                                    <h6 class="text-primary">Price:29$</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+        </div>
         </div>
         <!-- course section end -->
         <div class="d-flex justify-content-center">
@@ -419,7 +466,7 @@
         <!-- accordion end -->
         <div class="conatiner text-center m-5 ">
             <h1>Trusted by over 800+ companies</h1>
-            <div class="logo d-flex justify-content-evenly my-5">
+            <div class="logo d-flex justify-content-evenly my-5git col-md ">
                 <img src="images/company/company-1.png" alt="">
                 <img src="images/company/company-2.png" alt="">
                 <img src="images/company/company-3.png" alt="">
